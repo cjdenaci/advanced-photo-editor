@@ -1,4 +1,4 @@
-**<u>A+ Image Processor v3.0</u>**
+**<u>Advanced Image Processor v3.0</u>**
 
 *Aidan Johansson*
 
