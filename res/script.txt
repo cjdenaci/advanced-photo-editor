@@ -1,0 +1,23 @@
+create layer anthonyPortrait
+create layer jakePortrait
+create layer sadiePortrait
+current anthonyPortrait
+load anthony.png
+invisible #switches over to the next visible layer
+load jake.jpeg
+invisible #switches over to the next visible layer
+load sadie.ppm
+save full untouchedImages
+current anthonyPortrait
+visible #the input 'save full' backed up all of the original images
+filter blur
+save anthonyBlur.jpeg
+current jakePortrait
+visible
+filter sharpen
+transformation sepia
+save jakeSharpenSepia.ppm
+current sadiePortrait
+transformation monochrome
+save sadieMonochrome.png
+exit
